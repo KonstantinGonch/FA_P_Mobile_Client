@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/content_state_revealer"
+    android:layout_width="match_parent"
+    android:background="@drawable/backgr_phone"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.raxsoft.univer_project_client_side.StateRevealerActivity"
+    tools:showIn="@layout/activity_state_revealer">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation = "vertical"
+        android:layout_gravity = "center"
+        android:gravity = "center">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorWhite"
+            android:gravity = "center"
+            android:text="@string/data_please"
+            android:textSize="20sp"
+            android:layout_marginBottom="40dp"
+            android:layout_weight = "1"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight = "1"
+            android:layout_marginTop = "10dp"
+            android:textSize="15sp"
+            android:textColor = "@color/colorWhite"
+            android:text="@string/fcode"/>
+
+        <EditText
+            android:id = "@+id/fcode_et"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorWhite"
+            android:hint="@string/fcode_hint"
+            android:textColorHint="@color/colorGray"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight = "1"
+            android:layout_marginTop = "10dp"
+            android:textSize="15sp"
+            android:textColor = "@color/colorWhite"
+            android:text="@string/scode"/>
+
+        <EditText
+            android:id = "@+id/scode_et"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorWhite"
+            android:hint="@string/scode_hint"
+            android:textColorHint="@color/colorGray"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight = "1"
+            android:layout_marginTop = "10dp"
+            android:textSize="15sp"
+            android:textColor = "@color/colorWhite"
+            android:text="@string/tcode"/>
+
+        <EditText
+            android:id = "@+id/tcode_et"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorWhite"
+            android:hint="@string/tcode_hint"
+            android:textColorHint="@color/colorGray"/>
+
+        <Button
+            android:id = "@+id/confirm_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity = "center"
+            android:text = "@string/confirm"
+            android:layout_gravity = "center"
+            />
+        <ProgressBar
+            android:id = "@+id/progrbar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+
+</FrameLayout>

@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">Univer_Project_Client_Side</string>
+    <string name="action_settings">Settings</string>
+    <string name="av_actions">Доступные действия</string>
+    <string name="about_app">О приложении</string>
+    <string name="view_stat">Посмотреть статус заявки</string>
+    <string name="title_activity_state_revealer">StateRevealerActivity</string>
+    <string name="info">О приложении</string>
+    <string name="data_insert">Ввод данных</string>
+    <string name="data_please">Введите необходимые данные: </string>
+    <string name="fcode">Код подразделения: </string>
+    <string name="scode">Год (2 цифры): </string>
+    <string name="tcode">Порядковый номер: </string>
+    <string name="fcode_hint">Введите код подразделения</string>
+    <string name="scode_hint">Введите 2 цифры года</string>
+    <string name="tcode_hint">Введите порядковый номер</string>
+    <string name="confirm">Подтвердить</string>
+    <string name="main_page">Главная страница</string>
+    <string name="fcode_err">Неправильный формат данных в коде подразделения</string>
+    <string name="scode_err">Неправильный формат данных в номере года</string>
+    <string name="tcode_err">Неправильный формат данных в порядковом номере</string>
+    <string name="data">Данные</string>
+    <string name="regnum">Регистрационный номер: </string>
+    <string name="regdat">Дата регистрации: </string>
+    <string name="curstate">Текущий статус: </string>
+    <string name="posnum">В очереди на изготовление марок: </string>
+    <string name="noqueue">Марки были изготовлены</string>
+    <string name="infoabout">О приложении</string>
+    <string name="about_text">Приложение позволяет получить информацию о текущем статусе заявки по акцизным маркам через номер заявки</string>
+    <string name = "pleasewait">Пожалуйста, подождите</string>
+    <string name="error">Ошибка</string>
+    <string name = "errorexpl">Не удалось связаться с сервером</string>
+</resources>

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_mini_revealer"
+    android:orientation = "vertical"
+    android:background="@color/colorWhite"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.raxsoft.univer_project_client_side.MiniRevealerActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/regnum"
+        android:textSize="20sp"
+        android:textColor = "@color/colorBlack"
+        />
+    <TextView
+        android:id = "@+id/regnum_tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorBlack"
+        android:layout_marginTop="10dp"
+        tools:text = "001323/16/00002"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text = "@string/regdat"
+        android:textSize = "20sp"
+        android:layout_marginTop="20dp"
+        android:textColor = "@color/colorBlack"/>
+    <TextView
+        android:id = "@+id/regdate_tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorBlack"
+        android:layout_marginTop="10dp"
+        tools:text = "18.12.2016"/>
+    <TextView
+        android:id = "@+id/query_tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text = "@string/posnum"
+        android:textSize = "20sp"
+        android:layout_marginTop="20dp"
+        android:textColor = "@color/colorBlack"/>
+    <TextView
+        android:id = "@+id/pos_tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorBlack"
+        android:layout_marginTop="10dp"
+        tools:text = "10"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text = "@string/curstate"
+        android:textSize = "20sp"
+        android:layout_marginTop="20dp"
+        android:textColor = "@color/colorBlack"/>
+    <TextView
+        android:id = "@+id/state_tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorBlack"
+        android:layout_marginTop="10dp"
+        tools:text = "Обязательство принято"/>
+
+</LinearLayout>
